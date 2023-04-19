@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className="uk-child-width-1@s uk-light" uk-grid>
         <div
-          className="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle"
+          className="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center@m uk-flex-right@l"
           style={{
             backgroundImage: `url(${sunset})`,
           }}
