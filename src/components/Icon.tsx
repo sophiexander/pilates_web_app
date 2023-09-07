@@ -6,7 +6,7 @@ export default function Icon({ image }: Props) {
     <div>
       <img
         src={image}
-        className="icon uk-card uk-card-default uk-card-body uk-animation-scale-up"
+        className="icon uk-card uk-card-body uk-animation-scale-up"
         alt="logo"
         width={200}
       />
