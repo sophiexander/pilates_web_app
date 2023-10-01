@@ -10,17 +10,30 @@ import Icon from "../Icon";
 
 export default function Header() {
   return (
-    <div
-      className="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center@m uk-flex-left@l"
-      style={{
-        backgroundImage: `url(${sunset})`,
-      }}
-    >
-      <Icon image={pilates2_logo} />
-      <Icon image={pilates1_logo} />
-      <Icon image={pilates_logo} />
-      <Icon image={pilates4_logo} />
-      <Icon image={pilates3_logo} />
+    <div>
+      <div
+        className="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-column uk-flex-between"
+        style={{
+          backgroundImage: `url(${sunset})`,
+        }}
+      >
+        <div className="uk-flex uk-flex-row uk-flex-center@m">
+          <Icon image={pilates2_logo} />
+          <Icon image={pilates1_logo} />
+          <Icon image={pilates_logo} />
+          <Icon image={pilates4_logo} />
+          <Icon image={pilates3_logo} />
+        </div>
+
+        <div className="heading-gradient uk-flex uk-flex-center">
+          <h1
+            className="uk-heading-large uk-flex uk-flex-bottom"
+            // style={{ background: "purple" }}
+          >
+            <span style={{ color: "black" }}>Pilates Studio</span>
+          </h1>
+        </div>
+      </div>
     </div>
   );
 }

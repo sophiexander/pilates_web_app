@@ -1,6 +1,6 @@
 import "uikit/dist/css/uikit.css";
 import Header from "./components/header/Header";
-import Organiser from "./components/class-planner/Organiser";
+import Home from "./components/class-planner/Home";
 import pilates2_logo from "./assets/pilates_2.png";
 import Footer from "./components/Footer";
 import Icon from "./components/Icon";
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div className="uk-child-width-1@s uk-light uk-flex-column" uk-flex>
         <Header />
-        <Organiser />
+        <Home />
       </div>
     </div>
   );
