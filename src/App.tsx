@@ -9,7 +9,7 @@ import Icon from "./components/Icon";
 function App() {
   return (
     <div className="App">
-      <div className="uk-child-width-1@s uk-light uk-flex-column" uk-flex>
+      <div className="uk-flex-column uk-margin-large" uk-flex>
         <Header />
         <Home />
       </div>
