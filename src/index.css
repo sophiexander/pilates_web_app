@@ -25,3 +25,9 @@ code {
   background: linear-gradient(to bottom, transparent, #bfd1e5);
   height: 200px;
 }
+
+.card {
+  background-color: #d8bfaa;
+  box-shadow: 1px 1px 5px 5px #9c6615;
+  /* box-shadow: 0 0 15px 15px #d8bfaa; */
+}
