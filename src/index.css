@@ -17,6 +17,15 @@ code {
   color: black;
 }
 
+.nav-bar {
+  background: #bfd1e5;
+}
+
+.button {
+  background: #542344;
+  color: #bfd1e5;
+}
+
 .headings {
   color: #542344;
 }
