@@ -6,6 +6,7 @@ import pilates2_logo from "../../assets/pilates_2.png";
 import pilates3_logo from "../../assets/pilates_3.png";
 import pilates4_logo from "../../assets/pilates_4.png";
 import sunset from "../../assets/sunset.jpg";
+import logo from "../../assets/pilateslogo2.png";
 import Icon from "../Icon";
 
 export default function Header() {
@@ -30,7 +31,14 @@ export default function Header() {
             className="uk-heading-large uk-flex uk-flex-bottom"
             // style={{ background: "purple" }}
           >
-            <span style={{ color: "black" }}>Pilates Studio</span>
+            <img
+              src={logo}
+              className="uk-animation-scale-up"
+              alt="logo"
+              width={300}
+            />
+
+            {/* <span style={{ color: "black" }}>Pilates With Antoinette</span> */}
           </h1>
         </div>
       </div>

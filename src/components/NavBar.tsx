@@ -17,5 +17,26 @@ export default function NavBar({ handleClick }: Props) {
         Contact
       </button>
     </div>
+    // <div className="nav-bar">
+    //   <nav className="uk-navbar-container">
+    //     <div className="uk-container">
+    //       <div uk-navbar>
+    //         <div className="uk-navbar-left">
+    //           <ul className="uk-navbar-nav">
+    //             <li className="uk-active">
+    //               <a onClick={() => handleClick("")}>Home</a>
+    //             </li>
+    //             <li>
+    //               <a href="contact">Parent</a>
+    //             </li>
+    //             <li>
+    //               <a href="#">Item</a>
+    //             </li>
+    //           </ul>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </nav>
+    // </div>
   );
 }
